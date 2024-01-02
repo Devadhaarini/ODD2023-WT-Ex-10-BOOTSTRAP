@@ -12,6 +12,7 @@ Construct the form.
 # Step 4:
 Add a submit button and Link Bootstrap JavaScript.
 # CODE: 10(a)
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,6 +61,7 @@ Add a submit button for the form.
 # Step 5:
 Link the Bootstrap JavaScript file at the end of the body.
 # CODE: 10(b)
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,6 +111,7 @@ Add a submit button for the form.
 # Step 5:
 Add a script to handle the form validation on submit.
 # CODE: 10(c)
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -168,6 +171,7 @@ Add a submit button for the form.
 # Step 5:
 Add a script to handle the form validation on submit.
 # CODE: 10(d)
+
 <!DOCTYPE html>
 <html>
 <head>
