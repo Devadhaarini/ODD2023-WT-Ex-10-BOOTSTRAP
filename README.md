@@ -13,46 +13,6 @@ Construct the form.
 Add a submit button and Link Bootstrap JavaScript.
 # CODE: 10(a)
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Form</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container">
-        <h2 class="mt-5">Login Form</h2>
-        <form class="needs-validation" novalidate>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
-                <div class="invalid-feedback">Please enter a valid email.</div>
-            </div>
-            <button type="submit" class="btn btn-primary">Login</button>
-        </form>
-    </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-    (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-            var forms = document.getElementsByClassName('needs-validation');
-            var validation = Array.prototype.filter.call(forms, function(form) {
-                form.addEventListener('submit', function(event) {
-                    if (form.checkValidity() === false) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        }, false);
-    })();
-    </script>
-</body>
-</html>
-
 
 # OUTPUT: 10(a)
 ![Screenshot 2024-01-02 081318](https://github.com/Devadhaarini/ODD2023-WT-Ex-10-BOOTSTRAP/assets/145796552/6ae0158e-af50-4f60-ab50-1dac4e031551)
@@ -222,6 +182,7 @@ Add a script to handle the form validation on submit.
     </script>
 </body>
 </html>
+
 
 # OUTPUT: 10(d)
 ![Screenshot 2024-01-02 083143](https://github.com/Devadhaarini/ODD2023-WT-Ex-10-BOOTSTRAP/assets/145796552/3e53b9e5-c4e1-4ddf-9ba7-ff5947d19ade)
